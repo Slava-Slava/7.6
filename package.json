@@ -1,0 +1,17 @@
+{
+  "name": "books",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "ChromeHeadless": "cypress run --browser chrome --headless --config-file cypress.config.js",
+    "ChromeMobile": "cypress run --browser chrome --headed --config-file cypress.config.js",
+    "ElectronHeadless": "cypress run --browser chrome --headless --config-file cypresss.config.js",
+    "ElectronMobile": "cypress run --browser chrome --headed --config-file cypresss.config.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^13.3.2"
+  }
+}
